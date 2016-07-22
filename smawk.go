@@ -15,7 +15,7 @@ const (
 
 func main() {
     // Create the bot using the provided access token
-    bot := smawk.Connect(SMAWKToken, false)
+    bot, _ := smawk.Connect(SMAWKToken, false)
 
     // Open the webhook
     bot.OpenWebhookWithCert(bot_url+bot_url_token, bot_cert)
