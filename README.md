@@ -1,5 +1,5 @@
 #SMÄWKBot Controller
-This repo contains the controller that implements the SMÄWKBot API
+This repo contains the controller that implements the [SMÄWKBot API](https://github.com/SMAWK/smawk-bot)
 
 # Creating a controller
 A controller is required to implement the SMÄWKBot [SB] API. This controller is a standalone program that Go will compile; once compiled, this program can be run from most anywhere on a file system.
