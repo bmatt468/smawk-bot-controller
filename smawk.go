@@ -20,7 +20,7 @@ import (
 const (
 
     SMAWKToken      = "249930361:AAHz1Gksb-eT0SQG47lDb7WbJxujr7kGCkU"
-    bot_url         = "https://mysimplethings.xyz:8443"
+    bot_url         = "https://www.benjaminrmatthews.com:8443"
     bot_url_token   = "/309LKj2390gklj1LJF2"
     bot_cert        = "smawk_cert.pem"
     bot_key         = "smawk_key.pem"
@@ -35,8 +35,8 @@ func main() {
         country := "US"
         state   := "South Carolina"
         city    := "Lexington"
-        org     := "My Simple Things"
-        domain  := "mysimplethings.xyz"
+        org     := "MattCorp"
+        domain  := "www.benjaminrmatthews.com"
         smawk.GenerateCertificate(country,state,city,org,domain,bot_key,bot_cert)
     }
 

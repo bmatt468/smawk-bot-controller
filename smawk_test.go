@@ -44,6 +44,6 @@ func TestParseHello(t *testing.T) {
 	bot, _ := GetBot(t)
 
 	// Generate our update using the helper function
-	update, _  := bot.GenerateUpdate("/hello")
+	update, _  := bot.GenerateUpdate("/id")
 	bot.ParseAndExecuteUpdate(update)
 }
