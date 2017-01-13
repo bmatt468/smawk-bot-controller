@@ -1,7 +1,7 @@
 package main_test
 
 import (
-    "github.com/SMAWK/smawk-bot"
+    "github.com/bmatt468/smawk-bot"
     "log"
     "testing"
 )

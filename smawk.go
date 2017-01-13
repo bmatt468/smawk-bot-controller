@@ -2,11 +2,11 @@
 package main
 
 // Here we import the required libraries for the controller
-// github.com/SMAWK/smawk-bot: fetch the SMÄWKBot API from its repo
+// github.com/bmatt468/smawk-bot: fetch the SMÄWKBot API from its repo
 // net/http: used for spooling up a webserver to listen for updates
 // os: used for checking if a file exists
 import (
-    "github.com/SMAWK/smawk-bot"
+    "github.com/bmatt468/smawk-bot"
     "net/http"
     "os"
 )

@@ -1,5 +1,5 @@
 #SMÄWKBot Controller
-This repo contains the controller that implements the [SMÄWKBot API](https://github.com/SMAWK/smawk-bot)
+This repo contains the controller that implements the [SMÄWKBot API](https://github.com/bmatt468/smawk-bot)
 
 # Creating a controller
 A controller is required to implement the SMÄWKBot [SB] API. This controller is a standalone program that Go will compile; once compiled, this program can be run from most anywhere on a file system.
@@ -22,7 +22,7 @@ The SB API is on a public repository; therefore, Go makes it very easy to grab t
 The code to fetch the API is as follows:
 ```Go
 import (
-    "github.com/SMAWK/smawk-bot"
+    "github.com/bmatt468/smawk-bot"
 )
 ```
 With this one simple command, Go will take care of fetching the SB API from its repo, and adding it to the proper location inside of the `$GOPATH/src` directory.
